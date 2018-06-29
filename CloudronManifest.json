@@ -1,0 +1,22 @@
+{
+  "id": "com.github.spacedeck",
+  "title": "Spacedeck",
+  "author": "Spacedeck developers",
+  "description": "file://DESCRIPTION.md",
+  "changelog": "file://CHANGELOG",
+  "tagline": "A web based, real time, collaborative whiteboard application with rich media support",
+  "version": "0.1.0",
+  "healthCheckPath": "/",
+  "httpPort": 9666,
+  "addons": {
+    "localstorage": {}
+  },
+  "manifestVersion": 1,
+  "website": "https://spacedeck.github.com",
+  "contactEmail": "support@cloudron.io",
+  "icon": "file://whiteboard.png",
+  "tags": [
+    "changeme"
+  ],
+  "mediaLinks": [ ]
+}
