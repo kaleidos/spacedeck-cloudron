@@ -13,6 +13,15 @@
   "google_access" : "",
   "google_secret" : "",
   "admin_pass": "very_secret_admin_password",
-  "phantom_api_secret": "very_secret_phantom_password"
-}
+  "phantom_api_secret": "very_secret_phantom_password",
 
+  "mail_provider": "smtp",
+  "mail_smtp_host": "##MAIL_SMTP_SERVER",
+  "mail_smtp_port": ##MAIL_SMTPS_PORT,
+  "mail_smtp_secure": true,
+  "mail_smtp_require_tls": true,
+  "mail_smtp_user": "##MAIL_SMTP_USERNAME",
+  "mail_smtp_pass": "##MAIL_SMTP_PASSWORD",
+
+  "contact_email": "##MAIL_FROM"
+}

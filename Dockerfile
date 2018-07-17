@@ -26,7 +26,7 @@ ENV PATH /usr/local/node-10.5.0/bin:$PATH
 RUN mkdir -p /app/code
 WORKDIR /app/code
 
-RUN curl -L https://github.com/spacedeck/spacedeck-open/archive/master.zip -o master.zip
+RUN curl -L https://github.com/kaleidos/spacedeck-open/archive/master.zip -o master.zip
 RUN unzip master.zip
 RUN rm master.zip
 RUN mv spacedeck-open-master/* spacedeck-open-master/.??* .
@@ -39,7 +39,7 @@ RUN ln -s /app/data/database.sqlite /app/code
 RUN npm install
 
 COPY start.sh /app/code
-COPY default.json /app/code/config
+COPY default.template.json /app/code/config
 
 CMD [ "/app/code/start.sh" ]
 

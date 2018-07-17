@@ -1,2 +1,7 @@
+[0.2.0]
+* Upgrading to kaleidos master branch
+* Installing extra packages to process images, videos and sounds
+* Adding email configuration for cloudron
+
 [0.1.0]
 * Initial version

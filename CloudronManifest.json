@@ -9,7 +9,8 @@
   "healthCheckPath": "/",
   "httpPort": 9666,
   "addons": {
-    "localstorage": {}
+    "localstorage": {},
+    "sendmail": {}
   },
   "manifestVersion": 1,
   "website": "https://spacedeck.github.com",
