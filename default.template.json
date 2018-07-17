@@ -1,5 +1,5 @@
 {
-  "endpoint": "http://localhost:9666",
+  "endpoint": "https://board.kaleidos.net/",
   "storage_region": "eu-central-1",
 
   "storage_bucket": "my_spacedeck_bucket",
