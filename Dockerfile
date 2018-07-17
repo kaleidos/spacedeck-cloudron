@@ -36,12 +36,15 @@ RUN mkdir /app/data/
 RUN touch /app/data/database.sqlite
 RUN ln -s /app/data/database.sqlite /app/code
 
+RUN mkdir /app/data/storage
+RUN ln -s /app/data/storage /app/code/storage
+
 RUN npm install
 
 COPY start.sh /app/code
 RUN ln -sf /run/
 COPY default.template.json /app/code/default.template.json
-ln -sf /run/default.json /app/code/default.json
+RUN ln -sf /run/default.json /app/code/default.json
 
 CMD [ "/app/code/start.sh" ]
 
