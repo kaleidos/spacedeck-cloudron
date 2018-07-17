@@ -5,7 +5,7 @@
   "description": "file://DESCRIPTION.md",
   "changelog": "file://CHANGELOG",
   "tagline": "A web based, real time, collaborative whiteboard application with rich media support",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "healthCheckPath": "/",
   "httpPort": 9666,
   "addons": {
