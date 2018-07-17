@@ -17,11 +17,12 @@
 
   "mail_provider": "smtp",
   "mail_smtp_host": "##MAIL_SMTP_SERVER",
-  "mail_smtp_port": ##MAIL_SMTPS_PORT,
-  "mail_smtp_secure": true,
-  "mail_smtp_require_tls": true,
+  "mail_smtp_port": ##MAIL_SMTP_PORT,
+  "mail_smtp_secure": false,
+  "mail_smtp_require_tls": false,
   "mail_smtp_user": "##MAIL_SMTP_USERNAME",
   "mail_smtp_pass": "##MAIL_SMTP_PASSWORD",
 
-  "contact_email": "##MAIL_FROM"
+  "contact_email": "##MAIL_FROM",
+  "team_name": "Kaleidos Spacedec"
 }

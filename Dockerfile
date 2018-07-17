@@ -43,8 +43,8 @@ RUN npm install
 
 COPY start.sh /app/code
 RUN ln -sf /run/
-COPY default.template.json /app/code/default.template.json
-RUN ln -sf /run/default.json /app/code/default.json
+COPY default.template.json /app/code/config/default.template.json
+RUN ln -sf /run/default.json /app/code/config/default.json
 
 CMD [ "/app/code/start.sh" ]
 
